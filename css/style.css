@@ -135,7 +135,7 @@ a:active {
     background-color:  #F6E6CB;
     border-radius: 8px;
     margin: 20px;
-    box-shadow: 10px 10px #A0937D;
+    box-shadow: 0 4px 8px 0 #626262;
 
 }
 .one-col{
@@ -153,4 +153,7 @@ label,input{
     font-family: "Arsenal SC", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 #5b5b5b;
 }
