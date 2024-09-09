@@ -1,0 +1,196 @@
+body{
+    margin:0;
+    background-color: #d1b9a4;
+}
+nav{
+    
+    background-color: #E7D4B5;
+    padding: 5px ;
+    border-width: 7px;
+    border-style: dashed none none none;
+    border-color: #A0937D;
+   
+    
+
+    display: flex;
+    justify-content: space-between;
+
+    font-family: "Arsenal SC", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #E7D4B5;
+    padding: 5px ;
+    border-width: 7px;
+    border-style: none none dashed none;
+    border-color: #A0937D;
+   
+}
+section.splash{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #F6E6CB;
+    border-radius: 25px;
+    
+    margin: 0 20px 0 20px;
+
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+section.splash{
+    font-family: "Arsenal SC", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section.splash>h1, h2, h3{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+img{
+
+    max-width: 100%; 
+    height: auto; 
+
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+   
+}
+hr {
+    border-style: none;
+    border-top: 12px dotted #A0937D;
+    width: 50%;
+    margin: 20px auto;
+}
+h1{
+    font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #000000;
+  /*text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), 1px 1px 0  rgb(255, 255, 255),
+    1px 1px 0  rgb(255, 255, 255);*/
+    margin: 20px 20px 10px 20px;
+}
+h2{
+    font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #614f3f;
+  /*text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), 1px 1px 0  rgb(255, 255, 255),
+    1px 1px 0  rgb(255, 255, 255);*/
+    margin: 20px 20px 10px 20px;
+}
+p{
+    font-family: "Arsenal SC", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+  margin: 18px 28px 28px 48px;
+  font-size: 18px;
+
+}
+.nav-text{
+    margin: 20px;
+}
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 18px;
+    margin: 10px 20px 20px 40px;
+    
+}
+dt{
+    font-family: "Arsenal SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 8px;
+    font-size: 18px;
+
+}
+dd{
+    font-family: "Arsenal SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+ul{
+    font-family: "Arsenal SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    
+
+}
+li{
+    margin: 8px;
+
+}
+a:link{
+    color: darkgreen;
+    text-decoration: none; 
+}
+a:visited { 
+    color: darkgreen;
+    text-decoration: none; 
+}
+
+a:hover { 
+    color:rgb(255, 0, 234) ; 
+}
+a:active { 
+    text-decoration: none; 
+}
+
+
+.three-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    
+   
+   
+}
+.card {
+    padding: 15px;
+    
+    background-color:  #F6E6CB;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 #626262;
+
+}
+.one-col{
+    display: grid;
+    grid-template-columns: 1fr ;
+ 
+   
+}
+form{
+    margin: 20px;
+    text-align: center;
+
+}
+label,input{
+    font-family: "Arsenal SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 #5b5b5b;
+}
