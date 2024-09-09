@@ -166,6 +166,18 @@ a:active {
    
    
 }
+@media screen and (max-width: 1024px) {
+    .three-col {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .three-col {
+      grid-template-columns: 1fr; /* 1 column */
+    }
+  }
+  
 .card {
     padding: 15px;
     
